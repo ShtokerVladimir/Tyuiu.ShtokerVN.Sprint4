@@ -8,7 +8,7 @@ namespace Tyuiu.ShtokerVN.Sprint4.Task1.V18.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidCalc()
         {
             DataService ds = new DataService();
 

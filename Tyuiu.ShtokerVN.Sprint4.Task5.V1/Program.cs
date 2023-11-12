@@ -25,22 +25,22 @@ namespace Tyuiu.ShtokerVN.Sprint4.Task5.V1
             Console.WriteLine("********************************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                                 *");
             Console.WriteLine("* Дан двумерный целочисленный массив 5 на 5 элементов, заполненный                         *");
-            Console.WriteLine("* случайными значениями в диапазоне от -9 до 8. Заменить положительные элементы на 1.      *");
+            Console.WriteLine("* случайными значениями в диапазоне от -9 до 8. Заменить положительные элементы на 1       *");
             Console.WriteLine("********************************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                         *");
             Console.WriteLine("********************************************************************************************");
 
             Console.WriteLine("Введите количество строк в массиве: ");
-            int rows = Convert.ToInt32(Console.ReadLine());
+            int rows1 = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Введите количество столбцов в массиве: ");
             int columns = Convert.ToInt32(Console.ReadLine());
 
-            int[,] sigma = new int[rows, columns];
+            int[,] sigma = new int[rows1, columns];
 
             Console.WriteLine("********************************************************************************************");
 
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < rows1; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
@@ -49,7 +49,7 @@ namespace Tyuiu.ShtokerVN.Sprint4.Task5.V1
             }
 
             Console.WriteLine("\n Массив : ");
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < rows1; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {
@@ -66,7 +66,7 @@ namespace Tyuiu.ShtokerVN.Sprint4.Task5.V1
 
             sigma = ds.Calculate(sigma);
 
-            for (int i = 0; i < rows; i++)
+            for (int i = 0; i < rows1; i++)
             {
                 for (int j = 0; j < columns; j++)
                 {

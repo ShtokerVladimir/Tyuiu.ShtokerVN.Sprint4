@@ -12,7 +12,7 @@ namespace Tyuiu.ShtokerVN.Sprint4.Task6.V2.Test
         {
             DataService ds = new DataService();
 
-            CollectionAssert.AreEqual(new string[] { "Черный", "Зеленый", "Красный", "Желтый", "Фиолетовый" }, ds.Calculate(new string[] { "Белый", "Черный", "Зеленый", "Синий", "Красный", "Желтый", "Фиолетовый" }));
+            CollectionAssert.AreEqual(new string[] { "Черный", "Зеленый", "Красный", "Желтый", "Фиолетовый" }, ds.Calculate(new string[] { "Белый", "Черный", "Зеленый", "Синий", "Красный", "Желтый", "фиолетовый" }));
         }
     }
 }

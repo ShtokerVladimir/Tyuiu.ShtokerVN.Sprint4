@@ -11,8 +11,8 @@ namespace Tyuiu.ShtokerVN.Sprint4.Task6.V2.Lib
     {
         public string[] Calculate(string[] array)
         {
-            string[] zxc = Array.FindAll(array, item => item.Length > 5);
-            return zxc;
+            string[] zxc1 = Array.FindAll(array, item => item.Length > 5);
+            return zxc1;
         }
     }
 }
